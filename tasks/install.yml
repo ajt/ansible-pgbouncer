@@ -2,4 +2,4 @@
 
 - name: "Stage 1: install pgbouncer"
   yum: pkg=pgbouncer state=latest
-  when: ansible_pkg_mgr == 'yum'
+  when: ansible_pkg_mgr == 'apt'
