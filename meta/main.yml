@@ -2,14 +2,15 @@
 
 galaxy_info:
   author: "Alexey Lesovsky"
-  description: A role to install PgBouncer on RedHat/CentOS/Scientific/Oracle Enterprise Linux.
+  author: "Andrew Thornton"
+  description: A role to install PgBouncer on Ubuntu. Based on Alexey Lesovsky.
   license: as-is
   min_ansible_version: 1.4
   version: 1.0
   platforms:
-    - name: EL
+    - name: Ubuntu
       versions:
-      - 6
+      - 14.04
   categories:
    - database
    - database:sql
