@@ -7,7 +7,7 @@ enable_logrotate: yes
 
 # Pools
 pgbouncer_pools:
-  - { name: "db1", conninfo: "host=127.0.0.1 port=5432 user=johndoe password=test1234" }
+  - { name: "*", conninfo: "host=127.0.0.1 port=5432 user=$USER" }
 
 # Internal user management
 pgbouncer_admin_user: pgbouncer
